@@ -7,10 +7,10 @@
 (in-package :server)
 
 ;;; load dependencies
-(ql:quickload :hunchentoot)
-(ql:quickload :hunchentoot-test)
-(ql:quickload :easy-routes)
-(ql:quickload :jonathan)
+;; (ql:quickload :hunchentoot)
+;; (ql:quickload :hunchentoot-test)
+;; (ql:quickload :easy-routes)
+;; (ql:quickload :jonathan)
 
 ;; create variable to store acceptor
 (defvar *acceptor* nil)
