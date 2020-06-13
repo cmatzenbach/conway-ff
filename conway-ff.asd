@@ -2,4 +2,4 @@
 	:description "Simple app for conway's class"
 	:version "0.0.1"
 	:components ((:file "server")
-							(:file "main")))
+							 (:file "main" :depends-on ("server"))))
