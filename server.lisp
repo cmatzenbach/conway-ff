@@ -6,7 +6,7 @@
 
 (in-package :server)
 
-;;; load dependencies
+;; load dependenciesfor teseting in slime, will be compiled in asdf and shouldn't be re-ran
 ;; (ql:quickload :hunchentoot)
 ;; (ql:quickload :hunchentoot-test)
 ;; (ql:quickload :easy-routes)
